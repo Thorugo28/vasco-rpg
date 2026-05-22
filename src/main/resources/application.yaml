@@ -1,0 +1,37 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /vasco-rpg-api
+maven:
+  name: @name@
+  description: @description@
+  version: @version@
+
+spring:
+  application:
+    name: @name@
+  main:
+    allow-circular-references:
+      true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+    hikari:
+      pool-name: HikariPool-H2
+      maximum-pool-size: 5
+      minimum-idle: 1
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      connection-timeout: 30000
+  jpa:
+    show_sql: ${JPA_SHOW_SQL}
+    properties:
+      hibernate:
+        default_schema: ${APP_OWNER}
+        ddl-auto: ${HIBERNATE_DDL_AUTO}
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html

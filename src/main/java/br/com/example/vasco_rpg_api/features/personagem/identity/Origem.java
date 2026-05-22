@@ -1,0 +1,30 @@
+package br.com.example.vasco_rpg_api.features.personagem.identity;
+
+public enum Origem {
+    ACADEMICO,
+    AGENTE_DE_SAUDE,
+    AMNESICO,
+    ARTISTA,
+    ATLETA,
+    CHEF,
+    CRIMINOSO,
+    CULTISTA_ARREPENDIDO,
+    DESGARRADO,
+    ENGENHEIRO,
+    EXECUTIVO,
+    INVESTIGADOR,
+    LUTADOR,
+    MAGNATA,
+    MERCENARIO,
+    MILITAR,
+    OPERARIO,
+    POLICIAL,
+    RELIGIOSO,
+    SERVIDOR_PUBLICO,
+    TEORICO_DA_CONSPIRACAO,
+    TI,
+    TRABALHADOR_RURAL,
+    TRAMBIQUEIRO,
+    UNIVERSITARIO,
+    VITIMA
+}

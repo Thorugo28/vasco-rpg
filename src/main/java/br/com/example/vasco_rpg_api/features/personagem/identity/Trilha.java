@@ -1,0 +1,29 @@
+package br.com.example.vasco_rpg_api.features.personagem.identity;
+
+public enum Trilha {
+    AGENTE_SECRETO,
+    ANIQUILADOR,
+    CACADOR,
+    COMANDANTE_DE_CAMPO,
+    GUERREIRO,
+    MONSTRUOSO,
+    OPERACOES_ESPECIAIS,
+    TROPA_DE_CHOQUE,
+    ATIRADOR_DE_ELITE,
+    BIBLIOTECARIO,
+    INFILTRADOR,
+    MEDICO_DE_CAMPO,
+    MUAMBEIRO,
+    NEGOCIADOR,
+    PERSEVERANTE,
+    TECNICO,
+    CONDUITE,
+    EXORCISTA,
+    FLAGELADOR,
+    GRADUADO,
+    INTUITIVO,
+    LAMINA_PARANORMAL,
+    PARAPSICOLOGO,
+    POSSUIDO
+
+}

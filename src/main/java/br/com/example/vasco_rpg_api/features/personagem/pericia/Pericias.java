@@ -1,0 +1,32 @@
+package br.com.example.vasco_rpg_api.features.personagem.pericia;
+
+public enum Pericias {
+    ACROBACIA,
+    ADESTRAMENTO,
+    ARTES,
+    ATLETISMO,
+    ATUALIDADES,
+    CIENCIAS,
+    CRIME,
+    DIPLOMACIA,
+    ENGANACAO,
+    FORTITUDE,
+    FURTIVIDADE,
+    INICIATIVA,
+    INTIMIDACAO,
+    INTUICAO,
+    INVESTIGACAO,
+    LUTA,
+    MEDICINA,
+    OCULTISMO,
+    PERCEPCAO,
+    PILOTAGEM,
+    PONTARIA,
+    PROFISSAO,
+    REFLEXOS,
+    RELIGIAO,
+    SOBREVIVENCIA,
+    TATICA,
+    TECNOLOGIA,
+    VONTADE
+}

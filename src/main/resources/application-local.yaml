@@ -6,13 +6,11 @@ maven:
   name: @name@
   description: @description@
   version: @version@
-
 spring:
   application:
     name: @name@
   main:
-    allow-circular-references:
-      true
+    allow-circular-references: true
   h2:
     console:
       enabled: true
@@ -30,11 +28,12 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
   jpa:
-    show_sql: ${JPA_SHOW_SQL}
+    show-sql: ${JPA_SHOW_SQL:true}
+    hibernate:
+      ddl-auto: ${HIBERNATE_DDL_AUTO:update}
     properties:
       hibernate:
-        default_schema: ${APP_OWNER}
-        ddl-auto: ${HIBERNATE_DDL_AUTO}
+        default_schema: ${APP_OWNER:PUBLIC}
 springdoc:
   swagger-ui:
     enabled: true

@@ -41,7 +41,6 @@ public class Character {
     private Classe classe;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
     private Trilha trilha;
 
     @ElementCollection
